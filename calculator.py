@@ -76,25 +76,22 @@ def divide(*args):
 
 def howto(*args):
 
-    # return """http://localhost:8080/multiply/3/5   => 15<br>
-    #           http://localhost:8080/add/23/42      => 65<br>
-    #           http://localhost:8080/subtract/23/42 => -19<br>
-    #           http://localhost:8080/divide/22/11   => 2<br>
-    #           <p>Try using one of the above addresses!</p>
-    #         """
-
-    return """<h2>Please use below format to perform needed functions:</h3>
-              <div>
+    return """
+              <h1>Instructions</h1>
+              <h2>Please use below format to perform needed functions:</h3>
+              <p>
               http://localhost:8080/multiply/3/5   => 15<br>
               http://localhost:8080/add/23/42      => 65<br>
               http://localhost:8080/subtract/23/42 => -19<br>
               http://localhost:8080/divide/22/11   => 2<br>
-              </div>
+              </p>
               <h3>Below links can be used to run some quick tests:</h3>
+              <p>
               <a href=http://localhost:8080/multiply/3/5>http://localhost:8080/multiply/3/5</a><br>
               <a href=http://localhost:8080/add/23/42>http://localhost:8080/add/23/42</a><br>
               <a href=http://localhost:8080/subtract/23/42>http://localhost:8080/subtract/23/42</a><br>
               <a href=http://localhost:8080/divide/22/11>http://localhost:8080/divide/22/11</a><br>
+              </p>
               """
 
 
